@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(91, 142, 218);
+}
+
+.circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 15px #991f1f;
+    color: white;
+    transition: background-color, transform, 0.3s;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.circle:hover {
+    background-color: #ff3b3b;
+}
+
+.circle:active {
+    transform: translate(-50%, -40%);
+    box-shadow: 0px 0px #991f1f;
+}
