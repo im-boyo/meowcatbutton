@@ -1,9 +1,13 @@
 body {
     background-color: rgb(167, 91, 218);
+}
+
+.shalissa {
     background-image: url(https://i.kym-cdn.com/entries/icons/original/000/029/733/shalissa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: multiply;
+    height: 98vh;
+    opacity: 0.2;
 }
 
 .circle {
@@ -38,6 +42,78 @@ body {
 }
 
 .circle:active {
+    transform: translate(-50%, -40%);
+    box-shadow: 0px 0px #6c1f99;
+}
+
+.whobtn {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+    top: 70%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 15px #6c1f99;
+    color: rgb(255, 255, 255);
+    transition: background-color, transform, 0.3s;
+    background-color: #8121cf;
+}
+
+.whobtn:hover {
+    background-color: #a73bff;
+}
+
+.whobtn:active {
+    transform: translate(-50%, -40%);
+    box-shadow: 0px 0px #6c1f99;
+}
+
+.mebtn {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+    top: 70%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 15px #6c1f99;
+    color: rgb(255, 255, 255);
+    transition: background-color, transform, 0.3s;
+    background-color: #8121cf;
+}
+
+.mebtn:hover {
+    background-color: #a73bff;
+}
+
+.mebtn:active {
+    transform: translate(-50%, -40%);
+    box-shadow: 0px 0px #6c1f99;
+}
+
+.beyoncebtn {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 15px #6c1f99;
+    color: rgb(255, 255, 255);
+    transition: background-color, transform, 0.3s;
+    background-color: #8121cf;
+    background-image: url(https://www.billboard.com/wp-content/uploads/2022/06/Beyonce-cr-Courtesy-of-Parkwood-Entertainment-press-2022-billboard-1548.jpg?w=942&h=623&crop=1);
+    background-size: cover;
+    
+}
+
+.beyoncebtn:hover {
+    background-color: #a73bff;
+}
+
+.beyoncebtn:active {
     transform: translate(-50%, -40%);
     box-shadow: 0px 0px #6c1f99;
 }
