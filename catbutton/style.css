@@ -1,9 +1,14 @@
 body {
-    background-color: rgb(91, 142, 218);
+    background-color: rgb(167, 91, 218);
+    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/029/733/shalissa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 .circle {
     position: absolute;
+    border: 10px solid purple;
     width: 200px;
     height: 200px;
     background-color: #ff0000;
@@ -11,9 +16,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 15px #991f1f;
-    color: white;
+    box-shadow: 0px 15px #6c1f99;
+    color: rgb(255, 255, 255);
     transition: background-color, transform, 0.3s;
+    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/029/733/shalissa.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    -webkit-text-stroke: 1px rgb(146, 13, 255);
 }
 
 .text {
@@ -21,14 +30,14 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .circle:hover {
-    background-color: #ff3b3b;
+    background-color: #a73bff;
 }
 
 .circle:active {
     transform: translate(-50%, -40%);
-    box-shadow: 0px 0px #991f1f;
+    box-shadow: 0px 0px #6c1f99;
 }
